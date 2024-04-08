@@ -1,0 +1,36 @@
+.header{
+  height: 50px;
+  width: 100vw;
+  color: #6646FD;
+  background-color: #FFFF4D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-btn{
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.user-btn{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn{
+  height: 30px;
+  width: 100px;
+  color: #FDFDFD;
+  font-weight: 600;
+  background-color: #1A1919;
+  border-radius: 5px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
