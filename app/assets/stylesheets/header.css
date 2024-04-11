@@ -1,11 +1,15 @@
 .header{
   height: 50px;
   width: 100vw;
-  color: #6646FD;
   background-color: #FFFF4D;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header a{
+  color: #6646FD;
+  text-decoration: none;
 }
 
 .top-btn{
@@ -20,17 +24,23 @@
   justify-content: space-around;
 }
 
+.user-name{
+  color: #000000;
+}
+
 .btn{
   height: 30px;
   width: 100px;
-  color: #FDFDFD;
-  font-weight: 600;
   background-color: #1A1919;
   border-radius: 5px;
   margin-left: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
+.btn a{
+  color: #FDFDFD;
+  font-weight: 600;
+  text-decoration: none;
+}

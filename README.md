@@ -7,11 +7,11 @@
 | email              | string  | null: false, unique: true |            |
 | encrypted_password | string  | null: false               |            |
 | name               | string  | null: false               |            |
-| profile            | text    | null: false               |            |
-| policy_id          | integer | null: false               | ActiveHash |
-| skill_id           | integer | null: false               | ActiveHash |
+| profile            | text    |                           |            |
+| policy_id          | integer |                           | ActiveHash |
+| skill_id           | integer |                           | ActiveHash |
 | xp                 | integer |                           | 500~9999   |
-| background_id      | integer | null: false               | ActiveHash |
+| background_id      | integer |                           | ActiveHash |
 
 ### Association
 
