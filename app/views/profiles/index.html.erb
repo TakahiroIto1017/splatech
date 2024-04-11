@@ -1,0 +1,41 @@
+<%= render "shared/header" %>
+
+<div class='main'>
+  <div class='profile'>
+    <div class='profile-title'>
+      <h1>プロフ画像メーカー</h1>
+    </div>
+    <div class='profile-form'>
+      <%= form_with model: @profile, method: "post" do |f| %>
+        <div class='profile-field'>
+          <%= f.label :名前 %><br />
+          <%= f.text_field :name, autocomplete: 'name' %>
+        </div>
+
+        <div class='profile-field'>
+          <%= f.label :自己紹介 %><br />
+          <%= f.text_field :profile, autocomplete: 'profile' %>
+        </div>
+
+        <div class='profile-field'>
+          <%= f.label :ポリシー %><br />
+          <%= f.collection_select(:policy_id, Policy.all, :id, :name, {}) %>
+        </div>
+
+        <div class='profile-field'>
+          <%= f.label :ウデマエ %><br />
+          <%= f.collection_select(:skill_id, Skill.all, :id, :name, {}) %>
+        </div>
+
+        <div class='profile-field'>
+          <%= f.label :Xパワー %><br />
+          <%= f.text_field :xp, autocomplete: 'xp' %>
+        </div>
+
+        <div class='profile-actions'>
+          <%= f.submit '生成', class: "profile-btn" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

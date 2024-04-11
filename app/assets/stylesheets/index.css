@@ -29,6 +29,7 @@
   color: #FFFF4D;
   font-size: 32px;
   font-weight: 800;
+  text-decoration: none;
   border-radius: 10px;
   border: #FDFDFD solid;
   background-color: #6646FD;
@@ -37,3 +38,4 @@
   align-items: center;
   justify-content: center;
 }
+

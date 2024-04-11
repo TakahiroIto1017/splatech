@@ -1,5 +1,16 @@
 # テーブル設計
 
+## profiles テーブル
+
+| Column             | Type    | Options                   | Memo       |
+| ------------------ | ------- | ------------------------- | ---------- |
+| name               | string  | null: false               |            |
+| profile            | text    |                           |            |
+| policy_id          | integer |                           | ActiveHash |
+| skill_id           | integer |                           | ActiveHash |
+| xp                 | integer |                           | 500~9999   |
+| background_id      | integer |                           | ActiveHash |
+
 ## users テーブル
 
 | Column             | Type    | Options                   | Memo       |

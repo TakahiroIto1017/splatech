@@ -3,13 +3,25 @@
 <div class='main'>
 
   <div class='high'>
-    <div class='function-btn'>プロフ画像<br>メーカー</div>
-    <div class='function-btn'>フレンド<br>掲示板</div>
+    <%= link_to profiles_path, class: "function-btn" do %>
+      プロフ画像
+      <br>
+      メーカー
+    <% end %>
+    <%= link_to "#", class: "function-btn" do %>
+      フレンド
+      <br>
+      掲示板
+    <% end %>
   </div>
 
   <div class='low'>
-    <div class='function-btn'>持ちブキ診断</div>
-    <div class='function-btn'>戦績管理</div>
+    <%= link_to "#", class: "function-btn" do %>
+      持ちブキ診断
+    <% end %>
+    <%= link_to "#", class: "function-btn" do %>
+      戦績管理
+    <% end %>
   </div>
 
 </div>
