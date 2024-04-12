@@ -1,0 +1,18 @@
+<%= render "shared/header" %>
+
+<div class='main'>
+  <div class='profile'>
+    <div class='profile-title'>
+      <h1>プロフ画像</h1>
+    </div>
+    <div class='profile-form'>
+      <% if @profile.image.attached? %>
+        <%= image_tag url_for(@profile.image), size: "205x360" %>
+        <br>
+        <%= link_to "画像を保存", url_for(@profile.image), download: "profile_image.png", class: "profile-btn" %>
+      <% else %>
+        <p>No image attached</p>
+      <% end %>
+    </div>
+  </div>
+</div>
