@@ -27,10 +27,10 @@ admin
 
 1. トップページ中央のボタンから左上の「プロフ画像メーカー」を選択
 1. 名前を入力（その他の項目は任意）
-  https://gyazo.com/217426b299b638ba64ae4789626bf0ad
+[![Image from Gyazo](https://i.gyazo.com/217426b299b638ba64ae4789626bf0ad.png)](https://gyazo.com/217426b299b638ba64ae4789626bf0ad)
 1. 「生成」ボタンを押す
 1. 「画像を保存」ボタンを押す
-  https://gyazo.com/5ad6d3d1d79945ffbd465618dadc3ce2
+[![Image from Gyazo](https://i.gyazo.com/5ad6d3d1d79945ffbd465618dadc3ce2.png)](https://gyazo.com/5ad6d3d1d79945ffbd465618dadc3ce2)
 
 # アプリケーション作成の背景
 
@@ -45,13 +45,13 @@ admin
 
 # 画面遷移図（未実装機能も含む）
 
-https://gyazo.com/b08ac8cc584b9e89181cd8c164d6b387
+[![Image from Gyazo](https://i.gyazo.com/b08ac8cc584b9e89181cd8c164d6b387.png)](https://gyazo.com/b08ac8cc584b9e89181cd8c164d6b387)
 
 # データベース設計
 
 ## ER図
 
-https://gyazo.com/f8c1ed624347c8688407a1a12d1bb876
+[![Image from Gyazo](https://i.gyazo.com/f8c1ed624347c8688407a1a12d1bb876.png)](https://gyazo.com/f8c1ed624347c8688407a1a12d1bb876)
 
 ## テーブル設計
 
