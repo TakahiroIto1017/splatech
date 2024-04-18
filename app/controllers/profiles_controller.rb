@@ -30,7 +30,7 @@ class ProfilesController < ApplicationController
     template_path = Rails.root.join('app', 'assets', 'images', 'profile.png')
     image = MiniMagick::Image.open(template_path)
 
-    font = "Arial"
+    font = Rails.root.join('app', 'assets', 'fonts', 'Buildingsandundertherailwaytracksfree_ver.otf').to_s
     size = 80
     color = "#FFFFFF"
     name = @profile.name
@@ -45,7 +45,7 @@ class ProfilesController < ApplicationController
       cmd.fill(color)
       cmd.draw "text #{name_x},#{name_y} '#{name}'"
       cmd.draw "text #{policy_x},#{policy_y} '#{policy}'"
-      cmd.pointsize size
+      cmd.pointsize(size)
     end
 
     output_path = Rails.root.join('storage', 'output_image.png')
